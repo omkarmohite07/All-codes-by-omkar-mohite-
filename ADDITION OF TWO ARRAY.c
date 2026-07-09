@@ -1,0 +1,25 @@
+// NAME:OMKAR MOHITE
+//PRN:2503033111372L002
+//TITLE:ADDITION OF TWO ARRAY
+
+
+
+
+#include<stdio.h>
+int main(){
+    int a[5]={11,12,13,14,15};
+    int b[5]={91,81,71,61,15};
+    int c[5];
+    int i;
+    
+    for(i=0; i<=4; i++){
+        c[i]=a[i]+b[i];
+    }
+    
+    printf("Addition of two array is : ");
+    for(i=0;i<=4;i++){
+        printf(" %d\t",c[i]);
+    }
+    
+    return 0;
+}
